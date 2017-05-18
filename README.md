@@ -12,8 +12,8 @@ I'll be exploring technologies hosted through Github Pages.  In this current rep
 ### Objectives:
 * Initialize Structure (done)
 * Install Theme (done)
-* Create a Post 
-* Create multiple Posts
+* Create a Post (done)
+* Create multiple Posts (done)
 * Custom Theme
 * Explore Markdown
 * Enhance Index Page
