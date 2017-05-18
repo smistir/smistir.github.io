@@ -1,9 +1,7 @@
 ---
-title: First Objectives
+title: First Objectives Completed
 layout: post
 ---
-
-# First Objectives Completed
 
 So far, completed objectives for Initialize Infrastructure, Install Theme, Create a Post, and Create Multiple Posts (this post is serving the last objective).  Also have begun steps to customize
 the theme by adding a default.html to the layouts folder.
