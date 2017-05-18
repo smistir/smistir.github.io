@@ -1,6 +1,6 @@
 ---
 title: Smistir Github Pages
-layout: default
+layout: post
 ---
 
 # Smistir - Github Pages
