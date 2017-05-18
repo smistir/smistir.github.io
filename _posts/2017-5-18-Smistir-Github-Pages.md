@@ -1,4 +1,4 @@
-﻿---
+---
 title: Smistir Github Pages
 layout: default
 ---
