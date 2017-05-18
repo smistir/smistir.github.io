@@ -7,7 +7,7 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a class="title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><a class="articletitle" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
         {{ post.excerpt }}
