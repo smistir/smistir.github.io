@@ -1,5 +1,5 @@
 ---
-title: Smistir Github Pages
+title: Smistir - Github Pages
 layout: post
 ---
 
