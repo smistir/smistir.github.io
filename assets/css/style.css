@@ -5,3 +5,8 @@
 
 body {
 }
+
+hr > a.articletitle {
+  text-decoration: none;
+  color: #000000;
+}
