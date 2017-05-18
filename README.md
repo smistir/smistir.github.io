@@ -1,4 +1,4 @@
-﻿---
+---
 title: README
 layout: default
 ---
