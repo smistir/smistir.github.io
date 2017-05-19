@@ -1,6 +1,7 @@
 ---
 title: Changes Required
 layout: post
+date: 2017-5-19 13:30:00
 ---
 
 Some changes were required and some changes were preferred.  Is any of it a big deal, probably not.  One issue stood out as being really ugly and I discuss that here as well as some
