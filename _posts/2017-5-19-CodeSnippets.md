@@ -4,7 +4,7 @@ layout: post
 date: 2017-5-19 14:00:00
 ---
 
-{% highlight csharp linenos %}
+{% highlight csharp %}
 
    public string MyCodeSnippet(string content)
    {
