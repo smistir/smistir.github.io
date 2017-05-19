@@ -7,6 +7,7 @@ I'll be exploring technologies hosted through Github Pages.  In this current rep
 * Install Theme (done)
 * Create a Post (done)
 * Create multiple Posts (done)
+* Multiple Posts Same Day (in-progress)
 * Custom Theme
 * Explore Markdown
 * Enhance Index Page
