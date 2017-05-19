@@ -5,14 +5,12 @@ date: 2017-5-19 14:00:00
 ---
 
 {% highlight markdown linenos %}
-   {% highlight markdown linenos %}
-      ---
-      title: This Is A Code Snippet
-      layout: default
-      ---
-      
-      # Cool Little features of Markdown and Jekyll
-   {% endhighlight %}
+   ---
+   title: This Is A Code Snippet
+   layout: default
+   ---
+
+   # Cool Little features of Markdown and Jekyll
 {% endhighlight %}
 
 This is a code snippet of a code snippet.  Jekyll uses Rouge and Pygments for code snippet highlighting within page content.  A small
