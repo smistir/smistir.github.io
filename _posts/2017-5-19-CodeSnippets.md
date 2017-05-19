@@ -4,7 +4,9 @@ layout: post
 date: 2017-5-19 14:00:00
 ---
 
-{% highlight csharp %}
+
+
+{% highlight csharp linenos %}
 
    public string MyCodeSnippet(string content)
    {
@@ -17,3 +19,6 @@ Jekyll uses Rouge and Pygments for code snippet highlighting within page content
 
 And just before I hit the submit button on this latest post, I flashed over to the documentation and found that including "linenos" to 
 the markup (markdown?) would include line numbers with the code snippet.
+
+### Quick Note:
+If you try to lead off with a Code Snippet, it seems Jekyll might not give you a successful build.  Try saying something, anything, before you begin the code snippet if you ever run into trouble.
