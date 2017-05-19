@@ -14,7 +14,7 @@ browser width.  Turns out, the default styling of this theme was setting a "min-
 
 As a quick fix, here is the code:
 
-'''code
+{% highlight scss %}
 
 @media screen and (max-width: 480px) {
    .inner {
@@ -22,19 +22,19 @@ As a quick fix, here is the code:
       max-width: 480px;
    }
 
-'''
+{% endhighlight %}
 
 This will need to be placed in a styles file in your own implementation.  If you don't have one setup, create a directory structure from root as "assets / css".  Within the CSS folder, create
 a "style.scss" (Sassy CSS) file.  At the top, you need to add the following:
 
-'''code
+{% highlight scss %}
 
    ---
    ---
 
    @import "{{site.theme}}";
 
-'''
+{% endhighlight %}
 
 And don't forget the semicolon (yea, I did that).  The base theme is already wired to look at this location for a stylesheet.  What you are doing here is providing it while also telling it to
 import the default theme for your site.  You'll notice at the top of the file you have added Front Matter that doesn't contain anything.  This is something we add to make sure Jekyll will process
@@ -47,9 +47,9 @@ file for default.html.  Then paste the contents that you copied from the theme's
 
 Once you have a default.html in place, this is what you will need to do.  On line 22:
 
-'''code
+{% highlight html %}
 
    <h1 id="project_title"><a class="sitetitle" href="https://{{ site.github.repository_name }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-'''
+{% endhighlight %}
 
